@@ -1,10 +1,19 @@
-# Connect Four — MCTS vs Minimax
-**Foundations of Adversarial Search — From Minimax to Monte Carlo Tree Search**
+# Foundations of Adversarial Search
+### From Minimax to Monte Carlo Tree Search
 
-A from-scratch implementation of two adversarial AI agents — Monte Carlo Tree Search (MCTS) 
-and Minimax with Alpha-Beta pruning — competing against each other on a fully custom Connect 
-Four engine. The project explores how statistical sampling (MCTS) and exhaustive game tree 
-search (Minimax) approach the same problem from fundamentally different directions.
+**Connect Four — AI Implementation & Analysis**
+
+Connect Four is a two-player strategy game where the goal is to connect 
+four pieces in a row — horizontally, vertically, or diagonally — before 
+your opponent does. Simple rules, but the decision space has over 10¹³ 
+possible states, making it a perfect testbed for adversarial AI.
+
+This project implements two fundamentally different AI approaches to the 
+same problem: Minimax, a classical algorithm from 1928 that exhaustively 
+searches the game tree, and Monte Carlo Tree Search (MCTS), a modern 
+statistical method from 2006 that learns purely from random simulations 
+with no human-written heuristics. Both agents are built from scratch and 
+compete live in a pygame arena, with full analysis of their performance.
 
 ---
 
